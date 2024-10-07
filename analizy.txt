@@ -1,0 +1,19 @@
+Crie um sistema simples de gerenciamento de tarefas em Python. O usuário deve poder
+adicionar, remover, listar e marcar tarefas como concluídas. As tarefas devem ser salvas em
+um arquivo para que possam ser recuperadas na próxima execução do programa. Todo seu
+programa deve rodar dentro do terminal(sem interface gráfica)
+
+1 = ação do usuário que pode ser criar, ver, editar ou deletar uma tarefa
+2 = executar a ação escolhida pelo usuário
+3 = só é possível escolhar alguma ação disponivel, só é possível editar ou deletar tarefas não finalizadas
+4 = gestão de tarefas
+5 = 
+  mostrar um menu com as opções de criar, listar, deletar, editar tarefa e finalizar software
+  solicitar para o usuário digitar uma opção
+  guardar a opção
+  validar a opção
+  se for valida a opção
+    executar a ação escolhida
+    retornar ao passo 1
+  se não for 
+    mostrar ao usuário uma mensagem e retornar ao passo 1
